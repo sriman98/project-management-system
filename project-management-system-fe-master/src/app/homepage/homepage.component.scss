@@ -1,0 +1,35 @@
+@import '../../variables';
+
+.sidenav-container {
+    height: 100vh;
+}
+
+.header-style {
+    @extend .sticky-style;
+    padding: 10px;
+    background-color: $primaryColor;
+}
+
+.bars-style {
+    font-size: x-large;
+    color: white;
+}
+
+.router-active-style {
+    background-color: $shadedPrimaryColor !important;
+}
+
+.sticky-style {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.profile-style {
+    position: absolute;
+    right: 0px;
+}
+
+.mat-divider-vertical {
+    border-right-color: white;
+}
